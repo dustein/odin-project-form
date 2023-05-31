@@ -96,12 +96,21 @@ main {
   flex-direction: column;
 }
 
-#password:invalid {
+.password:invalid {
   border: solid red;
 }
 
 label {
   margin-bottom: 0.2em;
+}
+
+input {
+  border: solid 1px transparent;
+}
+
+input:focus {
+  border: solid 1px blue;
+  box-shadow: 3px 3px 8px white;
 }
 
 .buttons {
