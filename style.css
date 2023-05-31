@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --fundo-form: rgb(244, 226, 176);
+}
+
+main {
+  height: 100vh;
+  display: flex;
+}
+
+.logo-area {
+  background-image: url(midia/joel-rivera-camacho-_D6s7OkQK1M-unsplash.jpg);
+  background-size: cover;
+  width: 40%;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2em;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* padding-top: 2em; */
+  align-items: center;
+}
+
+#up {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+#one {
+  letter-spacing: 0.5em;
+}
+
+#two {
+  font-size: 4rem;
+  letter-spacing: 0.4em;
+}
+
+#down {
+  padding: 2em;
+  letter-spacing: 0.2em;
+}
+
+.form-area {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: var(--fundo-form);
+}
+
+#intro {
+  padding: 1em;
+}
+
+#formulario {
+  background-color: rgb(50, 40, 12);
+  color: #fafafa;
+  padding: 1em;
+}
+
+.form-campos {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-dados {
+  padding: 1.5em;
+  display: flex;
+}
+
+
+.form-dados input {
+  width: 15em;
+  border: solid 2px rgb(161, 161, 161);
+  border-radius: 3px;
+  padding: 0.2rem;
+}
+
+.form-individual {
+  padding-left: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+#password:invalid {
+  border: solid red;
+}
+
+label {
+  margin-bottom: 0.2em;
+}
+
+.buttons {
+  padding-left: 4em;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(46, 20, 20);
+}
+
+.buttons a:hover {
+  color: #fafafa;
+}
+
+#criar {
+  padding: 0.5rem 2rem;
+  margin-bottom: 1em;
+  /* font-size: 1.1rem; */
+  letter-spacing: 0.2rem;
+  color: #fafafa;
+  border: solid transparent;
+  border-radius: 15px;
+  background-color: rgb(46, 20, 20);
+}
+
+#criar:hover {
+  border: solid rgb(46, 20, 20);
+  color: rgb(46, 20, 20);
+  background-color: #fafafa;
+}

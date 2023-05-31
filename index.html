@@ -5,9 +5,74 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <title>Odin - Project Sign Up Form</title>
 </head>
 <body>
-  
+  <main>
+    <div class="logo-area">
+      <h1 class="logo" id="up"><span id="one">BeCome</span><span id="two">Tatical</span></h1>
+      <p class="logo" id="down">Si vis pacem, para bellum</p>
+    </div>
+    <div class="form-area">
+      <div id="intro">
+        <p>Este é um formulário de Inscrição para o serviço de adestramento BeCome Tatical. Um serviço fictício e inexistente. O propósito do forumlário criado é apenas colocar em prática a aula do curso The Odin Project.</p>
+        <p>Não há garantias do que pode acontecer se você inserir seus dados neste fomrulário. Be wise.</p>
+      </div>
+      <div id="formulario">
+        <h3>Revele seus Dados:</h3>
+        <form action="#" method="post" class="form-campos">
+          
+          <div class="form-dados">
+            
+            <div class="form-individual">
+              <label for="name">Nome: </label>
+              <input type="text" id="name" placeholder="Soldado">
+            </div>
+            
+            <div class="form-individual">
+              <label for="surname">Sobrenome: </label>
+              <input type="text" id="surname" placeholder="Anônimo">
+            </div>
+          </div>
+
+          <div class="form-dados">
+            
+            <div class="form-individual">
+              <label for="email">E-mail: </label>
+              <input type="email" id="email" placeholder="email@stein.edu">
+            </div>
+            
+            <div class="form-individual">
+              <label for="matricula">Matrícula: </label>
+              <input type="number" id="matricula" placeholder="000000">
+            </div>
+          </div>
+
+          <div class="form-dados">
+            
+            <div class="form-individual">
+              <label for="password">Senha: </label>
+              <input type="password" id="password" maxlength="6">
+            </div>
+            
+            <div class="form-individual">
+              <label for="match-password">Repita a Senha: </label>
+              <input type="password" id="match-password" maxlength="6">
+            </div>
+          </div>
+
+
+        </form>
+      </div>
+      <div class="buttons">
+        <button id="criar">Criar Conta</button>
+        <p>Já possui uma conta? <a href="#">Acessar conta.</a></p>
+      </div>
+      <form action="#" method="post"></form>
+    </div>
+  </main>
 </body>
 </html>
