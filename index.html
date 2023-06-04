@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,12 +56,12 @@
             
             <div class="form-individual">
               <label for="password">* Senha: </label>
-              <input type="password" class="password" maxlength="6" required>
+              <input type="password" class="password" maxlength="6" id="senha" required>
             </div>
             
             <div class="form-individual">
               <label for="match-password">* Repita a Senha: </label>
-              <input type="password" class="password" maxlength="6" min="6" required>
+              <input type="password" class="password" maxlength="6" min="6" id="resenha" required>
             </div>
           </div>
 
@@ -68,10 +69,9 @@
         </form>
       </div>
       <div class="buttons">
-        <button id="criar">Criar Conta</button>
+        <button id="criar" onclick="verifica()">Criar Conta</button>
         <p>Já possui uma conta? <a href="#">Acessar conta.</a></p>
       </div>
-      <form action="#" method="post"></form>
     </div>
   </main>
 </body>

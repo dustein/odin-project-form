@@ -11,17 +11,19 @@ html {
 main {
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .logo-area {
   background-image: url(midia/joel-rivera-camacho-_D6s7OkQK1M-unsplash.jpg);
   background-size: cover;
-  width: 40%;
+  /* width: 40%; */
   color: whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  width: auto;
 }
 
 .logo {
@@ -114,6 +116,7 @@ input:focus {
 }
 
 .buttons {
+  padding: 0.5em;
   padding-left: 4em;
 }
 
